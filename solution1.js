@@ -15,7 +15,8 @@ const coursesSchema = mongoose.Schema({
 })
 
 // model: Class, bundled
-const Course = mongoose.model('Course', coursesSchema)
+const Course = mongoose.model('Course', coursesSchema)  
+
 
 async function displayCourses() {
     try {
